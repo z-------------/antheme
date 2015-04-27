@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'handlebars' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 warn package.json antheme@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'handlebars', null ]
+8 verbose cache add name=undefined spec="handlebars" args=["handlebars",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'handlebars',
+9 verbose parsed url   path: 'handlebars',
+9 verbose parsed url   href: 'handlebars' }
+10 silly lockFile 9566e355-handlebars handlebars
+11 verbose lock handlebars /home/zack/.npm/9566e355-handlebars.lock
+12 silly lockFile 9566e355-handlebars handlebars
+13 silly lockFile 9566e355-handlebars handlebars
+14 verbose addNamed [ 'handlebars', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 0ab5732f-handlebars handlebars@
+17 verbose lock handlebars@ /home/zack/.npm/0ab5732f-handlebars.lock
+18 silly addNameRange { name: 'handlebars', range: '*', hasData: false }
+19 verbose request where is /handlebars
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 39f1f7df733df859
+22 verbose url raw /handlebars
+23 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+24 verbose url resolved https://registry.npmjs.org/handlebars
+25 verbose request where is https://registry.npmjs.org/handlebars
+26 info trying registry request attempt 1 at 21:57:37
+27 verbose etag "AJQPXX45KN64EMGISYUIVAQHQ"
+28 http GET https://registry.npmjs.org/handlebars
+29 http 200 https://registry.npmjs.org/handlebars
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"5P0XX7X01MD98F5FL6EXNNRPG"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '55660',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Mon, 27 Apr 2015 13:57:37 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '59',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-hkg6822-HKG',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1430143057.862953,VS0,VE0',
+30 silly registry.get     vary: 'Accept' } ]
+31 silly addNameRange number 2 { name: 'handlebars', range: '*', hasData: true }
+32 silly addNameRange versions [ 'handlebars',
+32 silly addNameRange   [ '1.0.6',
+32 silly addNameRange     '1.0.6-2',
+32 silly addNameRange     '1.0.7',
+32 silly addNameRange     '1.0.8',
+32 silly addNameRange     '1.0.9',
+32 silly addNameRange     '1.0.10',
+32 silly addNameRange     '1.0.11',
+32 silly addNameRange     '1.0.12',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.1.2',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.3.0',
+32 silly addNameRange     '2.0.0-alpha.1',
+32 silly addNameRange     '2.0.0-alpha.2',
+32 silly addNameRange     '2.0.0-alpha.3',
+32 silly addNameRange     '2.0.0-alpha.4',
+32 silly addNameRange     '2.0.0-beta.1',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '3.0.0',
+32 silly addNameRange     '3.0.1',
+32 silly addNameRange     '3.0.2',
+32 silly addNameRange     '1.0.2-beta',
+32 silly addNameRange     '1.0.4-beta',
+32 silly addNameRange     '1.0.5-beta' ] ]
+33 verbose addNamed [ 'handlebars', '3.0.2' ]
+34 verbose addNamed [ '3.0.2', '3.0.2' ]
+35 silly lockFile 1cfe957c-handlebars-3-0-2 handlebars@3.0.2
+36 verbose lock handlebars@3.0.2 /home/zack/.npm/1cfe957c-handlebars-3-0-2.lock
+37 silly lockFile 1b72826b--handlebars-handlebars-3-0-2-tgz https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+38 verbose lock https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz /home/zack/.npm/1b72826b--handlebars-handlebars-3-0-2-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz',
+39 verbose addRemoteTarball   'd97ecc6c68c7f653e0e168bf93981f3f3926b1dd' ]
+40 info retry fetch attempt 1 at 21:57:37
+41 verbose fetch to= /tmp/npm-23733-L4yDMVtr/registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+42 http GET https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+43 http 200 https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+44 silly lockFile 1b72826b--handlebars-handlebars-3-0-2-tgz https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+45 silly lockFile 1b72826b--handlebars-handlebars-3-0-2-tgz https://registry.npmjs.org/handlebars/-/handlebars-3.0.2.tgz
+46 silly lockFile 1cfe957c-handlebars-3-0-2 handlebars@3.0.2
+47 silly lockFile 1cfe957c-handlebars-3-0-2 handlebars@3.0.2
+48 silly lockFile 0ab5732f-handlebars handlebars@
+49 silly lockFile 0ab5732f-handlebars handlebars@
+50 error Error: EACCES, mkdir '/home/zack/.npm/handlebars/3.0.2'
+50 error  { [Error: EACCES, mkdir '/home/zack/.npm/handlebars/3.0.2']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/home/zack/.npm/handlebars/3.0.2',
+50 error   parent: 'antheme' }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-49-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "handlebars"
+54 error cwd /home/zack/Dev/GitHub/antheme
+55 error node -v v0.10.38
+56 error npm -v 1.4.28
+57 error path /home/zack/.npm/handlebars/3.0.2
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/home/zack/.npm/handlebars/3.0.2'
+61 verbose exit [ 3, true ]
